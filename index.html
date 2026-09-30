@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Waiting is happiness</title>
+<meta name="theme-color" content="#14161c">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600&family=Fraunces:opsz,wght@9..144,500;9..144,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="stars" aria-hidden="true"></div>
+<main>
+  <header class="hero">
+    <p class="eyebrow" id="groupName"></p>
+    <h1 class="slogan metal" id="slogan"></h1>
+    <p class="slogan-vi" id="sloganVi"></p>
+    <figure class="group">
+      <button class="group__btn" id="groupBtn" type="button" aria-label="Xem ảnh nhóm lớn"><img id="groupImg" alt="Ảnh nhóm 8 thành viên" decoding="async"></button>
+      <figcaption id="groupCap"></figcaption>
+    </figure>
+  </header>
+
+  <section class="block" id="membersSec" hidden>
+    <h2>The Members</h2>
+    <div class="members__grid" id="memberGrid"></div>
+  </section>
+
+  <section class="block" id="fanSec" hidden>
+    <h2>Lời nhắn của fan</h2>
+    <div class="card"><p class="fan__msg" id="fanMsg"></p><p class="fan__by" id="fanBy"></p></div>
+  </section>
+
+  <section class="block" id="musicSec">
+    <h2>Bài hát của mình 🎵</h2>
+    <div class="card" id="music"></div>
+  </section>
+
+  <section class="block" id="wallSec" hidden>
+    <h2>Lời nhắn từ các EXO-L khác</h2>
+    <div class="wall" id="wall"></div>
+  </section>
+
+  <section class="block" id="gallerySec" hidden>
+    <h2>A little collection of memories ✨</h2>
+    <div class="gallery" id="gallery"></div>
+  </section>
+
+  <footer id="footer"></footer>
+</main>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Xem ảnh lớn" hidden>
+  <button class="x" id="lbX" aria-label="Đóng">✕</button>
+  <button class="p" id="lbP" aria-label="Ảnh trước">‹</button>
+  <figure><img id="lbImg" alt=""><figcaption id="lbCap"></figcaption></figure>
+  <button class="n" id="lbN" aria-label="Ảnh sau">›</button>
+  <div class="c" id="lbC"></div>
+</div>
+
+<script src="data/config.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
