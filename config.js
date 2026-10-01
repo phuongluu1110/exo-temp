@@ -10,20 +10,20 @@ var CONFIG = {
   sloganVi: "Chờ đợi là hạnh phúc",
 
   // Ảnh nhóm 8 thành viên (ảnh ngang đẹp nhất). Thay ph(...) bằng "images/anh-nhom.jpg"
-  groupPhoto: "images/nhom.jpg",
+  groupPhoto: "nhom.jpg",
   groupCaption: "Eight stars, one light 🤍",
 
   // 8 thành viên: mỗi người 1 khung ảnh dọc. Thay ph(...) bằng "images/suho.jpg"...
   // (sub là dòng chữ nhỏ dưới tên, có thể xoá)
   members: [
-    { name: "Suho",     sub: "Leader",  photo:  "images/suho.jpg" },
-    { name: "Baekhyun", sub: "Vocal",   photo:  "images/baekhuyn.jpg" },
-    { name: "Chanyeol", sub: "Rap",     photo:  "images/chanyeol.jpg" },
-    { name: "D.O.",     sub: "Vocal",   photo:  "images/do.jpg" },
-    { name: "Kai",      sub: "Dance",   photo:  "images/kai.jpg" },
-    { name: "Sehun",    sub: "Maknae",  photo:  "images/sehun.jpg" },
-    { name: "Xiumin",   sub: "Vocal",   photo:  "images/xiumin.jpg" },
-    { name: "Chen",     sub: "Vocal",   photo:  "images/chen.jpg" }
+    { name: "Suho",     sub: "Leader",  photo:  "suho.jpg" },
+    { name: "Baekhyun", sub: "Vocal",   photo:  "baekhuyn.jpg" },
+    { name: "Chanyeol", sub: "Rap",     photo:  "chanyeol.jpg" },
+    { name: "D.O.",     sub: "Vocal",   photo:  "do.jpg" },
+    { name: "Kai",      sub: "Dance",   photo:  "kai.jpg" },
+    { name: "Sehun",    sub: "Maknae",  photo:  "sehun.jpg" },
+    { name: "Xiumin",   sub: "Vocal",   photo:  "xiumin.jpg" },
+    { name: "Chen",     sub: "Vocal",   photo:  "chen.jpg" }
   ],
 
   // Lời nhắn của bạn
