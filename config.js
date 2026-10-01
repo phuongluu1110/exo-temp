@@ -17,7 +17,7 @@ var CONFIG = {
   // (sub là dòng chữ nhỏ dưới tên, có thể xoá)
   members: [
     { name: "Suho",     sub: "Leader",  photo:  "suho.jpg" },
-    { name: "Baekhyun", sub: "Vocal",   photo:  "baekhuyn.jpg" },
+    { name: "Baekhuyn", sub: "Vocal",   photo:  "baekhuyn.jpg" },
     { name: "Chanyeol", sub: "Rap",     photo:  "chanyeol.jpg" },
     { name: "D.O.",     sub: "Vocal",   photo:  "do.jpg" },
     { name: "Kai",      sub: "Dance",   photo:  "kai.jpg" },
